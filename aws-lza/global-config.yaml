@@ -119,13 +119,13 @@ reports:
           threshold: 80
           comparisonOperator: GREATER_THAN
           subscriptionType: EMAIL
-          address: "my3mail@acme.com"
+          address: "billing@example.com"
         - type: FORECASTED
           thresholdType: PERCENTAGE
           threshold: 100
           comparisonOperator: GREATER_THAN
           subscriptionType: EMAIL
-          address: "my3mail@acme.com"
+          address: "billing@example.com"
       deploymentTargets:
         organizationalUnits:
           - Root

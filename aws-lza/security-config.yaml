@@ -38,11 +38,11 @@ centralSecurityServices:
 
   snsSubscriptions:
     - level: High
-      email: "my2mail@acme.com"
+      email: "security@example.com"
     - level: Medium
-      email: "my2mail@acme.com"
+      email: "security@example.com"
     - level: Low
-      email: "my2mail@acme.com"
+      email: "security@example.com"
 
   macie:
     enable: false

@@ -23,7 +23,7 @@
 mandatoryAccounts:
   - name: Management
     description: AWS Organizations management account; payer + LZA control plane
-    email: "my1mail@acme.com"
+    email: "PLACEHOLDER_EMAIL_Management@example.com"
     organizationalUnit: Root
   - name: LogArchive
     description: Central log archive (CloudTrail org trail destination, Config aggregator)
@@ -45,5 +45,5 @@ accountIds:
     accountId: ""
   - email: "PLACEHOLDER_EMAIL_Audit@example.com"
     accountId: ""
-  - email: "my1mail@acme.com"
+  - email: "PLACEHOLDER_EMAIL_Management@example.com"
     accountId: ""

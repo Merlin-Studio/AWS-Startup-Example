@@ -21,7 +21,7 @@
 
 mandatory_accounts = {
   Management = {
-    email               = "my1mail@acme.com"
+    email               = "PLACEHOLDER_EMAIL_Management@example.com"
     organizational_unit = "Root"
     description         = "AWS Organizations management / payer account"
   }

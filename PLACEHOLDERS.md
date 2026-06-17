@@ -24,9 +24,10 @@ Operator-owned email address. AWS Organizations requires a globally-unique email
 
 | Token | Files |
 |---|---|
-| `PLACEHOLDER_EMAIL_Audit` | `aws-lza/accounts-config.yaml` |
-| `PLACEHOLDER_EMAIL_LogArchive` | `aws-lza/accounts-config.yaml` |
-| `PLACEHOLDER_EMAIL_Workload` | `aws-lza/accounts-config.yaml` |
+| `PLACEHOLDER_EMAIL_Management` | `aws-lza/accounts-config.yaml`, `aws-tfvars/accounts.auto.tfvars` |
+| `PLACEHOLDER_EMAIL_Audit` | `aws-lza/accounts-config.yaml`, `aws-tfvars/accounts.auto.tfvars` |
+| `PLACEHOLDER_EMAIL_LogArchive` | `aws-lza/accounts-config.yaml`, `aws-tfvars/accounts.auto.tfvars` |
+| `PLACEHOLDER_EMAIL_Workload` | `aws-lza/accounts-config.yaml`, `aws-tfvars/accounts.auto.tfvars` |
 
 ## ORG_ID
 

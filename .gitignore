@@ -1,0 +1,22 @@
+# Terraform / OpenTofu
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+crash.log
+*.tfplan
+
+# NOTE: *.auto.tfvars is NOT ignored — the aws-tfvars/ example IS the committed
+# content of this repo. Only local secret overrides are ignored below.
+secrets.tfvars
+*.local.tfvars
+*.env
+.env
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
