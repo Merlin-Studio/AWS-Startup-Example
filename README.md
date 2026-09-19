@@ -260,3 +260,7 @@ The rules-engine trace — what each overlay added, why, and what triggered it.
 ## License
 
 Licensed under the Apache License, Version 2.0 — see [`LICENSE`](./LICENSE).
+
+---
+
+⭐ If this saved you time, a star helps others find it.
